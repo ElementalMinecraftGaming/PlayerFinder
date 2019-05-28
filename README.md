@@ -1,17 +1,23 @@
 # Player Finder
-Find a player.
+Find your players and do stuff.
+
+[![](https://poggit.pmmp.io/shield.state/PlayerFinder)](https://poggit.pmmp.io/p/PlayerFinder)
 
 ## Commands
 
 /find
 
-tp {player}
+tp {player} - Teleport and recieve world and XYZ
 
-coords {player}
+find {player} - recieve world and XYZ
 
-world {player}
+world {player} - recieve world
 
-troll {player}
+troll {player} - Spawn lava at someones feat and recieve world and XYZ
+
+freeze {player} - Stop a player from moving and recieve world and XYZ
+
+unfreeze {player} - Let player move again and recieve world and XYZ
 
 ## Credits
 
