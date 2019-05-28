@@ -1,1 +1,20 @@
-//ToDo
+name: PlayerFinder
+main: ElementalMinecraftGaming\PlayerFinder\Main
+version: 1.0.0
+api: [3.7.2]
+load: POSTWORLD
+author: ElementalMinecraftGaming
+description: Player Locater!
+
+commands:
+ findp:
+  description: Locate players!
+  permission: find.player
+
+permissions:
+  find.player:
+    default: true
+    description: Let's you locate players!
+    find.player:
+        default: op
+        description: Let's you use admin locate commands!
