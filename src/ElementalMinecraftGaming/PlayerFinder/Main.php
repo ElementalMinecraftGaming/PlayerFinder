@@ -35,7 +35,7 @@ class Main extends PluginBase implements Listener {
     
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
-        if (strtolower($command->getName()) == "findp") {
+        if (strtolower($command->getName()) == "find") {
             if ($sender->hasPermission("find.player")) {
                 if ($sender instanceof Player) {
                     if (isset($args[0])) {
