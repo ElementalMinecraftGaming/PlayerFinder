@@ -7,7 +7,7 @@ author: ElementalMinecraftGaming
 description: Player Locater!
 
 commands:
- findp:
+ find:
   description: Locate players!
   permission: find.player
 
